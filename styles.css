@@ -1,0 +1,175 @@
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+h1, h2, h3 {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Container Class */
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 30px 0;
+}
+
+/* Header Styles */
+header {
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+}
+
+header h1 {
+  font-size: 2rem;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+header nav ul li {
+  margin-left: 20px;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+/* Hero Section */
+.hero {
+  background: url('https://via.placeholder.com/1920x700') no-repeat center center/cover;
+  color: white;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.cta-button {
+  background-color: #ff7a00;
+  padding: 12px 30px;
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+  border-radius: 5px;
+}
+
+/* Courses Section */
+.courses {
+  background-color: white;
+  padding: 50px 0;
+}
+
+.courses h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+.course-card {
+  background-color: #f4f4f4;
+  padding: 20px;
+  margin: 15px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.course-card h3 {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+}
+
+.course-card p {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+}
+
+.course-card a {
+  background-color: #ff7a00;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+/* About Section */
+.about {
+  background-color: #f9f9f9;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.about p {
+  font-size: 1.1rem;
+  margin: 20px auto;
+  width: 80%;
+}
+
+/* Contact Section */
+.contact {
+  background-color: #fff;
+  padding: 50px 0;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.contact label {
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+}
+
+.contact input, .contact textarea {
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.contact button {
+  padding: 12px 30px;
+  background-color: #ff7a00;
+  color: white;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Footer Section */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
